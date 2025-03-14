@@ -5,9 +5,10 @@
 It is specifically designed for object representation (as opposed to enviroments). It provides a 2x size reduction compared to the `.splat` format and up to 15x reduction to the`.ply` format. `.hyp` is an ideal format for web including in-browser apps with limited resources. This format features variable levels of compression for colors, providing versatility for a wide range of applications.
 
 ## Demo
-
-To see a simple demo, clone the folder structure, load it to Visual Studio Code, and open `demo/index.html` with Live Server. Drag and drop a `.splat` or `.ply` file. You can explore Gaussian Splatting by dragging to rotate and translate the view, and using the scroll wheel to zoom. Click the convert button to produce into `.hyp` file, and then use the download button to download it. 
+To try a simple demo, [click here](https://hyperinteractive.ai/hyp/) Drag and drop a `.splat` or `.ply` file. You can explore Gaussian Splatting by dragging to rotate and translate the view, and using the scroll wheel to zoom. Click the convert button to produce into `.hyp` file, and then use the download button to download it. 
 Note: you can also drag and drop `.hyp` files to view their Gaussian Splatting data.
+
+To recreate the demo, clone the folder structure, load it to Visual Studio Code, and open `demo/index.html` with Live Server.
 
 ## File Format overview
 
